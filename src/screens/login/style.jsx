@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
     },
     container2: {
         backgroundColor: "dodgerblue",
-        height: hp(100),
+        height: hp(120),
         marginTop: hp(10),
         borderTopLeftRadius: 20,
         borderTopRightRadius: 20
@@ -48,9 +48,24 @@ export const styles = StyleSheet.create({
         marginTop: hp(10),
         borderRadius: 10
     },
+    btnContainer2: {
+        borderColor: "#fff",
+        borderWidth: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        height: hp(7),
+        width: wp(70),
+        marginTop: hp(5),
+        borderRadius: 10
+    },
     btnText: {
         fontSize: hp(2.6),
         fontWeight: "500",
         color: "dodgerblue"
+    },
+    btnText2: {
+        fontSize: hp(2.6),
+        fontWeight: "500",
+        color: "#fff"
     }
 })

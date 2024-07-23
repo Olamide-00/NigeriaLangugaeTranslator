@@ -8,7 +8,7 @@ import { widthPercentageToDP as wp, heightPercentageToDP as hp} from "react-nati
 export const styles = StyleSheet.create({
     root: {
         flex: 1,
-        backgroundColor: "dodgerblue"
+        backgroundColor: "black"
     },
     container: {
         justifyContent: "center",
@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
     by: {
         fontWeight: "500",
         marginVertical: hp(3),
-         color: "#fff"
+         color: "#FFF"
     },
     name: {
         fontWeight: "bold",
@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
         color: "#fff"
     },
    btn: {
-    backgroundColor: "#fff",
+    backgroundColor: "#228B22",
     height: hp(7),
     justifyContent: "center",
     alignItems: "center",
@@ -44,9 +44,16 @@ export const styles = StyleSheet.create({
    btnText: {
     fontSize: hp(2.5),
     fontWeight: "600",
-     color: "dodgerblue"
+     color: "black"
    },
    and: {
      color: "#fff"
+   },
+   image: {
+    width: wp(40),
+    height: hp(13)
+   },
+   imageContainer: {
+    marginBottom: hp(5)
    }
 })
